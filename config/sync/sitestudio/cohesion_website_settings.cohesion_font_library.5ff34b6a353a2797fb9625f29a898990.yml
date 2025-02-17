@@ -1,0 +1,31 @@
+uuid: 33422638-84ff-433d-af1c-e617791cb362
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:bc521879-9e59-4c3b-8f19-546ac9afd447'
+label: 'Proxima Nova Regular'
+id: 5ff34b6a353a2797fb9625f29a898990
+json_values: |
+  {
+      "type": "upload",
+      "fontDisplay": "auto",
+      "name": "Proxima Nova Regular",
+      "fontFiles": {
+          "eot": null,
+          "ttf": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/ProximaNovaRegular.ttf",
+              "uuid": "bc521879-9e59-4c3b-8f19-546ac9afd447"
+          },
+          "woff": null,
+          "woff2": null
+      },
+      "uid": "5ff34b6a353a2797fb9625f29a898990"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fonts

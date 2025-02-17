@@ -1,0 +1,20 @@
+uuid: 4a7898b3-48d9-4451-802f-357c2f85fde5
+langcode: en
+status: false
+dependencies:
+  theme:
+    - cohesion_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: cohesion_theme_primary_admin_actions
+theme: cohesion_theme
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

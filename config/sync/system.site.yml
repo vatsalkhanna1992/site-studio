@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 970f51ea-725d-4af5-af1b-79a8737e44ab
+name: 'Site studio'
+mail: vatsal.khanna@axelerant.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

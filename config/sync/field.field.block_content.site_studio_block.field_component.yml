@@ -1,0 +1,24 @@
+uuid: 1af24592-6a30-410e-aba9-fdea5f22ed80
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_studio_block
+    - field.storage.block_content.field_component
+  module:
+    - cohesion_elements
+id: block_content.site_studio_block.field_component
+field_name: field_component
+entity_type: block_content
+bundle: site_studio_block
+label: Component
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:cohesion_layout'
+  handler_settings: {  }
+  access_elements: '0'
+field_type: cohesion_entity_reference_revisions

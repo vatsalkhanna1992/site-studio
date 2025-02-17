@@ -1,0 +1,23 @@
+uuid: 7813d4f9-6840-48cf-81ef-e9753d1b2b0d
+langcode: en
+status: true
+dependencies: {  }
+label: 'Proxima Semi Bold'
+id: proxima-semi-bold
+json_values: |
+  {
+      "inuse": false,
+      "systemfont": false,
+      "link": true,
+      "name": "Proxima Semi Bold",
+      "uid": "proxima-semi-bold",
+      "variable": "$coh-font-proxima-semi-bold",
+      "class": ".coh-font-proxima-semi-bold",
+      "fontStack": "\"Proxima nova bold\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fontStacks

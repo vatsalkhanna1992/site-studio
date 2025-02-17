@@ -1,0 +1,23 @@
+uuid: 6f7ff728-7822-4333-b4f6-6a3435d8c715
+langcode: en
+status: true
+dependencies: {  }
+label: 'Proxima Regular'
+id: proxima-regular
+json_values: |
+  {
+      "inuse": true,
+      "systemfont": false,
+      "link": true,
+      "name": "Proxima Regular",
+      "uid": "proxima-regular",
+      "variable": "$coh-font-proxima-regular",
+      "class": ".coh-font-proxima-regular",
+      "fontStack": "\"Proxima nova regular\", \"Helvetica Neue\", Helvetica, Roboto, Arial, sans-serif"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fontStacks

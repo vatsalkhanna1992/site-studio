@@ -1,0 +1,41 @@
+uuid: 9efe6489-cc70-4620-95a9-5a9bc40feed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_studio_block
+    - field.field.block_content.site_studio_block.body
+    - field.field.block_content.site_studio_block.field_component
+  module:
+    - cohesion_elements
+    - text
+id: block_content.site_studio_block.default
+targetEntityType: block_content
+bundle: site_studio_block
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_component:
+    type: cohesion_layout_builder_widget
+    weight: 26
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

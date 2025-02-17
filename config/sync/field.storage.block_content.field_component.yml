@@ -1,0 +1,20 @@
+uuid: b5f08c71-5909-4d35-a0e2-5d8a95d801ce
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - cohesion_elements
+id: block_content.field_component
+field_name: field_component
+entity_type: block_content
+type: cohesion_entity_reference_revisions
+settings:
+  target_type: cohesion_layout
+module: cohesion_elements
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

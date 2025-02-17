@@ -1,0 +1,9 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+function site_studio_custom_form_alter(array &$form, FormStateInterface $form_state, $form_id) {
+  if ($form_id === 'search_block_form') {
+    $form['keys']['#size'] = 55;
+  }
+}

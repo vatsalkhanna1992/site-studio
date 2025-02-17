@@ -1,0 +1,139 @@
+uuid: 1ff6314c-6fa4-4c46-a92a-aeab5aebbf4f
+langcode: en
+status: true
+dependencies: {  }
+label: 'Padding top medium'
+id: dd6fc4dc
+json_values: |
+  {
+      "preview": {
+          "text": "<div class=\"coh-preview\">Default content for 'Layout'.<\/div>\n",
+          "textFormat": "cohesion",
+          "background": {
+              "value": {
+                  "rgba": "rgba(255,255,255,1)"
+              }
+          }
+      },
+      "styles": {
+          "settings": {
+              "element": "div",
+              "class": "",
+              "combinator": "",
+              "pseudo": ""
+          },
+          "styles": {
+              "xl": {
+                  "padding": {
+                      "padding-top": {
+                          "value": "48"
+                      }
+                  }
+              },
+              "lg": {
+                  "padding": {
+                      "padding-top": {}
+                  }
+              },
+              "sm": {
+                  "padding": {
+                      "padding-top": {}
+                  }
+              },
+              "ps": {
+                  "padding": {
+                      "padding-top": {
+                          "value": "24"
+                      }
+                  }
+              },
+              "md": {
+                  "padding": {
+                      "padding-top": {
+                          "value": "36"
+                      }
+                  }
+              }
+          }
+      },
+      "variableFields": [],
+      "previewModel": {}
+  }
+json_mapper: |
+  {
+      "styles": {
+          "selectorType": "topLevel",
+          "items": [],
+          "title": "Layout",
+          "formDefinition": [
+              {
+                  "formKey": "layout",
+                  "children": [
+                      {
+                          "formKey": "padding",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              },
+                              {
+                                  "name": "md"
+                              },
+                              {
+                                  "name": "ps"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "padding-equal",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-top",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-bottom",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-left",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-right",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-block-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-block-end",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-end",
+                                  "active": false
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "form": null
+      }
+  }
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-padding-top-medium
+custom_style_type: layout
+available_in_wysiwyg: false
+available_in_wysiwyg_inline: false
+parent: null
+weight: 59

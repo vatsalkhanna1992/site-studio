@@ -1,0 +1,31 @@
+uuid: 1f6c3fa0-4fb6-400d-83c6-a4b0f231d4fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'file:file:e3766fe5-d726-49a3-a38d-dbd4ae3c4ba7'
+label: 'Proxima Nova Semi Bold'
+id: 87b0d7400bb6fb54c1bee1efade878e9
+json_values: |
+  {
+      "type": "upload",
+      "fontDisplay": "auto",
+      "name": "Proxima Nova Semi Bold",
+      "fontFiles": {
+          "eot": null,
+          "ttf": {
+              "type": "file",
+              "uri": "public:\/\/cohesion\/ProximaNovaSemibold.ttf",
+              "uuid": "e3766fe5-d726-49a3-a38d-dbd4ae3c4ba7"
+          },
+          "woff": null,
+          "woff2": null
+      },
+      "uid": "87b0d7400bb6fb54c1bee1efade878e9"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+source: fonts

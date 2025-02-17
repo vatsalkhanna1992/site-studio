@@ -1,0 +1,566 @@
+uuid: cc5a674f-6575-42b7-b88a-148756373ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_custom_styles.cohesion_custom_style.7f4f36dd
+    - cohesion_elements.cohesion_component.cpt_background_color_container
+    - cohesion_elements.cohesion_component.cpt_spacer
+    - cohesion_elements.cohesion_component.cpt_text
+    - cohesion_elements.cohesion_component_category.cpt_cat_text_section_components
+    - cohesion_website_settings.cohesion_color.brand-color
+label: 'Text with search'
+id: cpt_text_with_search
+json_values: |
+  {
+      "canvas": [
+          {
+              "type": "container",
+              "uid": "container",
+              "title": "Container",
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "layout",
+              "uuid": "165fa67e-4fb5-471c-b1ed-6fb0dee197d0",
+              "parentUid": "root",
+              "children": [
+                  {
+                      "uid": "cpt_background_color_container",
+                      "type": "component",
+                      "title": "Background color container",
+                      "enabled": true,
+                      "category": "category-6",
+                      "componentId": "cpt_background_color_container",
+                      "componentType": "container",
+                      "iconColor": "custom",
+                      "uuid": "d5bb0d49-988b-455e-9c71-6256690f19a2",
+                      "status": {
+                          "collapsed": false
+                      },
+                      "parentUid": "container",
+                      "children": [
+                          {
+                              "type": "container",
+                              "uid": "component-drop-zone",
+                              "mimicParent": true,
+                              "parentUid": "cpt_background_color_container",
+                              "title": "Component drop zone",
+                              "selected": false,
+                              "status": {
+                                  "collapsed": false,
+                                  "disabled": false
+                              },
+                              "uuid": "64cd1e3b-56ab-4397-8d4a-b1af2ea9b026",
+                              "dropzoneId": "025fd9a3-b16d-4d4f-9ae1-e25255a5ad1e",
+                              "isContainer": true,
+                              "children": [
+                                  {
+                                      "uid": "cpt_spacer",
+                                      "type": "component",
+                                      "title": "Spacer",
+                                      "enabled": true,
+                                      "category": "category-1",
+                                      "componentId": "cpt_spacer",
+                                      "componentType": "container",
+                                      "iconColor": "custom",
+                                      "uuid": "ae3b48b0-2f63-4520-a0d1-9910d4f72e33",
+                                      "parentUid": "component-drop-zone",
+                                      "status": {},
+                                      "children": []
+                                  },
+                                  {
+                                      "uid": "cpt_text",
+                                      "type": "component",
+                                      "title": "Text",
+                                      "enabled": true,
+                                      "category": "category-4",
+                                      "componentId": "cpt_text",
+                                      "componentType": "wysiwyg",
+                                      "iconColor": "custom",
+                                      "uuid": "61b5fee6-bc68-4f6b-9050-fb6e193ea1ea",
+                                      "parentUid": "component-drop-zone",
+                                      "status": {},
+                                      "children": []
+                                  },
+                                  {
+                                      "type": "item",
+                                      "uid": "drupal-block",
+                                      "title": "Block",
+                                      "status": {
+                                          "collapsed": true
+                                      },
+                                      "uuid": "0e6ea83d-8264-476e-a0be-9463c842d264",
+                                      "parentUid": "component-drop-zone",
+                                      "children": []
+                                  },
+                                  {
+                                      "uid": "cpt_text",
+                                      "type": "component",
+                                      "title": "Text",
+                                      "enabled": true,
+                                      "category": "category-4",
+                                      "componentId": "cpt_text",
+                                      "componentType": "wysiwyg",
+                                      "iconColor": "custom",
+                                      "uuid": "9fe160b9-bbc5-4221-9a2a-a266c0cd701c",
+                                      "parentUid": "component-drop-zone",
+                                      "status": {},
+                                      "children": []
+                                  },
+                                  {
+                                      "uid": "cpt_spacer",
+                                      "type": "component",
+                                      "title": "Spacer",
+                                      "enabled": true,
+                                      "category": "category-1",
+                                      "componentId": "cpt_spacer",
+                                      "componentType": "container",
+                                      "iconColor": "custom",
+                                      "uuid": "fef855d5-af62-4d04-984b-7a540d74635d",
+                                      "parentUid": "component-drop-zone",
+                                      "status": {},
+                                      "children": []
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ]
+          }
+      ],
+      "componentForm": [
+          {
+              "type": "form-field",
+              "uid": "form-wysiwyg",
+              "title": "WYSIWYG",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "eb7d04df-b48e-42aa-9450-cc6c0c34266c",
+              "parentUid": "root",
+              "children": []
+          },
+          {
+              "type": "form-field",
+              "uid": "form-wysiwyg",
+              "title": "WYSIWYG",
+              "translate": true,
+              "status": {
+                  "collapsed": false
+              },
+              "iconColor": "formField",
+              "uuid": "dd569685-fd93-4f42-b26f-928fc1820dee",
+              "parentUid": "root",
+              "children": []
+          }
+      ],
+      "mapper": {
+          "61b5fee6-bc68-4f6b-9050-fb6e193ea1ea": {},
+          "d5bb0d49-988b-455e-9c71-6256690f19a2": {},
+          "9fe160b9-bbc5-4221-9a2a-a266c0cd701c": {},
+          "dd569685-fd93-4f42-b26f-928fc1820dee": {},
+          "0e6ea83d-8264-476e-a0be-9463c842d264": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "block-settings",
+                          "children": [
+                              {
+                                  "formKey": "block-drupal-block",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "block",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "block-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              },
+              "styles": {
+                  "formDefinition": [
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "margin",
+                                  "activeFields": [
+                                      {
+                                          "name": "margin-equal",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "margin-top",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "margin-bottom",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "margin-left",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "margin-right",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "margin-block-start",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "margin-block-end",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "margin-inline-start",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "margin-inline-end",
+                                          "active": false
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "title": "Default",
+                  "selectorType": "topLevel",
+                  "items": []
+              }
+          },
+          "165fa67e-4fb5-471c-b1ed-6fb0dee197d0": {
+              "settings": {
+                  "formDefinition": [
+                      {
+                          "formKey": "container-settings",
+                          "children": [
+                              {
+                                  "formKey": "container-width",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "width",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-animation",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "animationType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "common-link-modifier",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "modifierType",
+                                          "active": true
+                                      }
+                                  ]
+                              },
+                              {
+                                  "formKey": "container-style",
+                                  "breakpoints": [],
+                                  "activeFields": [
+                                      {
+                                          "name": "customStyle",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "selectorType": "topLevel",
+                  "form": null,
+                  "items": [],
+                  "title": "Default"
+              },
+              "styles": {
+                  "formDefinition": [
+                      {
+                          "formKey": "custom-css",
+                          "children": [
+                              {
+                                  "formKey": "css-property-and-css-value",
+                                  "activeFields": [
+                                      {
+                                          "name": "customCssProperty",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "customCss",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "title": "Default",
+                  "selectorType": "topLevel",
+                  "items": []
+              }
+          },
+          "eb7d04df-b48e-42aa-9450-cc6c0c34266c": {}
+      },
+      "model": {
+          "165fa67e-4fb5-471c-b1ed-6fb0dee197d0": {
+              "settings": {
+                  "width": "fluid",
+                  "title": "Container",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ]
+              },
+              "styles": {
+                  "settings": {
+                      "class": "Default"
+                  },
+                  "styles": {
+                      "xl": {
+                          "custom-css": [
+                              {
+                                  "customCssProperty": {
+                                      "value": "text-align"
+                                  },
+                                  "customCss": {
+                                      "value": "center"
+                                  }
+                              }
+                          ]
+                      }
+                  }
+              }
+          },
+          "d5bb0d49-988b-455e-9c71-6256690f19a2": {
+              "7b423b76-9860-4173-8bd2-3dd2064bb876": {
+                  "link": true,
+                  "name": "Brand color",
+                  "uid": "brand-color",
+                  "class": ".coh-color-brand-color",
+                  "variable": "$coh-color-brand-color",
+                  "value": {
+                      "hex": "#26a3dd",
+                      "rgba": "rgba(38, 163, 221, 1)"
+                  },
+                  "inuse": true,
+                  "wysiwyg": true,
+                  "tags": [
+                      "color"
+                  ]
+              },
+              "0671b6f3-28b1-4654-8bd1-7b006c6b127a": "0px",
+              "88ef1689-0de9-46f2-944a-af63a6a443c0": "flex-start",
+              "settings": {
+                  "title": "Background color container"
+              }
+          },
+          "64cd1e3b-56ab-4397-8d4a-b1af2ea9b026": {
+              "settings": {
+                  "title": "Drop components here",
+                  "dropzoneHideSelector": ""
+              }
+          },
+          "ae3b48b0-2f63-4520-a0d1-9910d4f72e33": {
+              "72f8059c-7ab7-417f-a980-4efa330b97a1": "80px",
+              "470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd": "80px",
+              "f0e200c8-bd2b-4864-819a-ab0da895ce9d": "80px"
+          },
+          "61b5fee6-bc68-4f6b-9050-fb6e193ea1ea": {
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": "[field.eb7d04df-b48e-42aa-9450-cc6c0c34266c]",
+              "21656d58-6784-4331-9370-2e7009487b4f": "coh-style-text-color-dark-background",
+              "f8e05754-678a-4864-9304-c742b959b852": "",
+              "5af21675-f8f5-48ce-816d-faedbed6b600": "",
+              "8bac75a1-19a5-42af-99fa-5877541c6590": "0",
+              "7f84a990-f95f-4bc3-98c9-2cd496b005ea": "",
+              "6dc6b921-8b08-4047-b4b5-2d838ccbd734": "",
+              "settings": {
+                  "title": "Heading"
+              }
+          },
+          "0e6ea83d-8264-476e-a0be-9463c842d264": {
+              "settings": {
+                  "title": "Block",
+                  "customStyle": [
+                      {
+                          "customStyle": ""
+                      }
+                  ],
+                  "theme": "cohesion_theme",
+                  "block": "cohesion_theme_search_form_wide"
+              },
+              "styles": {
+                  "settings": {
+                      "class": "Default"
+                  },
+                  "styles": {
+                      "xl": {
+                          "margin": {
+                              "margin-top": {
+                                  "value": "0"
+                              },
+                              "margin-bottom": {
+                                  "value": "0"
+                              },
+                              "margin-left": {
+                                  "value": "auto"
+                              },
+                              "margin-right": {
+                                  "value": "auto"
+                              }
+                          },
+                          "border-radius": {}
+                      }
+                  }
+              }
+          },
+          "9fe160b9-bbc5-4221-9a2a-a266c0cd701c": {
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": "[field.dd569685-fd93-4f42-b26f-928fc1820dee]",
+              "21656d58-6784-4331-9370-2e7009487b4f": "coh-style-text-color-dark-background",
+              "8bac75a1-19a5-42af-99fa-5877541c6590": "0",
+              "settings": {
+                  "title": "Footer text"
+              },
+              "f8e05754-678a-4864-9304-c742b959b852": "",
+              "5af21675-f8f5-48ce-816d-faedbed6b600": "",
+              "7f84a990-f95f-4bc3-98c9-2cd496b005ea": "",
+              "6dc6b921-8b08-4047-b4b5-2d838ccbd734": ""
+          },
+          "fef855d5-af62-4d04-984b-7a540d74635d": {
+              "72f8059c-7ab7-417f-a980-4efa330b97a1": "80px",
+              "470a86f1-ea1b-4491-8d21-a3c8ca8aa8dd": "80px",
+              "f0e200c8-bd2b-4864-819a-ab0da895ce9d": "80px"
+          },
+          "eb7d04df-b48e-42aa-9450-cc6c0c34266c": {
+              "settings": {
+                  "type": "cohWysiwyg",
+                  "title": "Heading",
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "heading",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "textFormat": "cohesion",
+                      "text": ""
+                  }
+              }
+          },
+          "dd569685-fd93-4f42-b26f-928fc1820dee": {
+              "settings": {
+                  "type": "cohWysiwyg",
+                  "title": "Footer text",
+                  "schema": {
+                      "type": "object"
+                  },
+                  "machineName": "footer",
+                  "tooltipPlacement": "auto right"
+              },
+              "model": {
+                  "value": {
+                      "textFormat": "cohesion",
+                      "text": ""
+                  }
+              }
+          }
+      },
+      "previewModel": {
+          "61b5fee6-bc68-4f6b-9050-fb6e193ea1ea": {
+              "settings": {
+                  "title": "Heading"
+              },
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {
+                  "text": "",
+                  "textFormat": "cohesion"
+              }
+          },
+          "d5bb0d49-988b-455e-9c71-6256690f19a2": {},
+          "9fe160b9-bbc5-4221-9a2a-a266c0cd701c": {
+              "settings": {
+                  "title": "Footer text"
+              },
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba": {
+                  "text": "<p>This is placeholder text. If you are reading this, it is here by mistake and we would appreciate it if you could email us with a link to the page you found it on. This is placeholder text. If you are reading this, it is here by mistake and we would appreciate it if you could email us with a link to the page you found it on. This is placeholder text. If you are reading this, it is here by mistake and we would appreciate it if you could email us with a link to the page you found it on. This is placeholder text. If you are reading this, it is here by mistake and we would appreciate it if you could email us with a link to the page you found it on.<\/p>",
+                  "textFormat": "cohesion"
+              }
+          },
+          "dd569685-fd93-4f42-b26f-928fc1820dee": {},
+          "0e6ea83d-8264-476e-a0be-9463c842d264": {},
+          "165fa67e-4fb5-471c-b1ed-6fb0dee197d0": {},
+          "eb7d04df-b48e-42aa-9450-cc6c0c34266c": {}
+      },
+      "variableFields": {
+          "61b5fee6-bc68-4f6b-9050-fb6e193ea1ea": [
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba"
+          ],
+          "d5bb0d49-988b-455e-9c71-6256690f19a2": [],
+          "9fe160b9-bbc5-4221-9a2a-a266c0cd701c": [
+              "5fc743c3-6b31-4a40-bd05-24acfb4ca9ba"
+          ],
+          "dd569685-fd93-4f42-b26f-928fc1820dee": [],
+          "0e6ea83d-8264-476e-a0be-9463c842d264": [],
+          "165fa67e-4fb5-471c-b1ed-6fb0dee197d0": [],
+          "eb7d04df-b48e-42aa-9450-cc6c0c34266c": []
+      },
+      "disabledNodes": [],
+      "meta": {}
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+category: cpt_cat_text_section_components
+preview_image: ''
+has_quick_edit: null
+entity_type_access: {  }
+bundle_access: {  }
+twig_template: component--cohesion-cpt-text-with-search
+weight: 0

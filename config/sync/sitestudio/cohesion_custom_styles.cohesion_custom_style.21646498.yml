@@ -1,0 +1,255 @@
+uuid: 0365d3c2-b2f1-4ff3-aa1e-e50be63c8939
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_website_settings.cohesion_color.brand-color
+    - cohesion_website_settings.cohesion_color.white
+label: 'View more button'
+id: '21646498'
+json_values: |
+  {
+      "preview": {
+          "text": "<button type=\"button\" class=\"coh-preview\">Default content for 'Button'<\/button>",
+          "textFormat": "cohesion",
+          "background": {
+              "value": {
+                  "rgba": "rgba(255,255,255,1)"
+              }
+          }
+      },
+      "styles": {
+          "settings": {
+              "element": "button"
+          },
+          "styles": {
+              "xl": {
+                  "background-color": {
+                      "value": {
+                          "link": true,
+                          "name": "Brand color",
+                          "uid": "brand-color",
+                          "class": ".coh-color-brand-color",
+                          "variable": "$coh-color-brand-color",
+                          "value": {
+                              "hex": "#26a3dd",
+                              "rgba": "rgba(38, 163, 221, 1)"
+                          },
+                          "inuse": true,
+                          "wysiwyg": true,
+                          "tags": [
+                              "color"
+                          ]
+                      }
+                  },
+                  "color": {
+                      "value": {
+                          "name": "White",
+                          "uid": "white",
+                          "value": {
+                              "hex": "#ffffff",
+                              "rgba": "rgba(255, 255, 255, 1)"
+                          },
+                          "wysiwyg": true,
+                          "class": ".coh-color-white",
+                          "variable": "$coh-color-white",
+                          "inuse": true,
+                          "link": true,
+                          "tags": [
+                              "light"
+                          ]
+                      }
+                  },
+                  "padding": {
+                      "padding-top": {
+                          "value": "15"
+                      },
+                      "padding-bottom": {
+                          "value": "15"
+                      },
+                      "padding-left": {
+                          "value": "15"
+                      },
+                      "padding-right": {
+                          "value": "15"
+                      }
+                  }
+              }
+          }
+      },
+      "previewModel": {},
+      "variableFields": []
+  }
+json_mapper: |
+  {
+      "styles": {
+          "title": "Default",
+          "selectorType": "topLevel",
+          "formDefinition": [
+              {
+                  "formKey": "font",
+                  "children": [
+                      {
+                          "formKey": "font-and-color",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "font-family",
+                                  "active": false
+                              },
+                              {
+                                  "name": "font-weight",
+                                  "active": false
+                              },
+                              {
+                                  "name": "color",
+                                  "active": true
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "background",
+                  "children": [
+                      {
+                          "formKey": "background-color",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "background-color",
+                                  "active": true
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "formKey": "layout",
+                  "children": [
+                      {
+                          "formKey": "padding",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "padding-equal",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-top",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-bottom",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-left",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-right",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-block-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-block-end",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-end",
+                                  "active": false
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "items": [
+              {
+                  "title": ":hover",
+                  "type": "container",
+                  "items": [],
+                  "selectorType": "pseudo",
+                  "formDefinition": [
+                      {
+                          "formKey": "font",
+                          "children": [
+                              {
+                                  "formKey": "font-and-color",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "font-family",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "font-weight",
+                                          "active": false
+                                      },
+                                      {
+                                          "name": "color",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "background",
+                          "children": [
+                              {
+                                  "formKey": "background-color",
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ],
+                                  "activeFields": [
+                                      {
+                                          "name": "background-color",
+                                          "active": true
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ],
+                  "uuid": "f141ff9c-addd-4976-a17f-95f43e4ee6a2"
+              }
+          ]
+      }
+  }
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-view-more-button
+custom_style_type: button
+available_in_wysiwyg: true
+available_in_wysiwyg_inline: true
+parent: null
+weight: 0

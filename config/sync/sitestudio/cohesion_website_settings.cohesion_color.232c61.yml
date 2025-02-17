@@ -1,0 +1,26 @@
+uuid: f952ee3c-9b28-4549-ac7a-0aaf94a2f8cb
+langcode: en
+status: true
+dependencies: {  }
+label: 232C61
+id: 232c61
+json_values: |
+  {
+      "link": true,
+      "value": {
+          "value": {
+              "hex": "#232c61",
+              "rgba": "rgba(35, 44, 97, 1)"
+          }
+      },
+      "uid": "232c61",
+      "name": "232C61",
+      "class": ".coh-color-232c61",
+      "variable": "$coh-color-232c61"
+  }
+json_mapper: '{}'
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+weight: 14

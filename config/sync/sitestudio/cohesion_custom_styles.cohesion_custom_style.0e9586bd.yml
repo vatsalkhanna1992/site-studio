@@ -1,0 +1,243 @@
+uuid: eab2c31d-3873-4287-9c99-85be2c6d72a6
+langcode: en
+status: true
+dependencies:
+  config:
+    - cohesion_website_settings.cohesion_color.gray-20
+label: 'Box shadow on container'
+id: 0e9586bd
+json_values: |
+  {
+      "preview": {
+          "text": "<div class=\"coh-preview\">Default content for 'Layout'.<\/div>",
+          "textFormat": "cohesion",
+          "background": {
+              "value": {
+                  "rgba": "rgba(255,255,255,1)"
+              }
+          }
+      },
+      "styles": {
+          "settings": {
+              "element": "div"
+          },
+          "90fc3570-2672-4d2f-814e-0f45880a6ad7": {
+              "styles": {
+                  "xl": {
+                      "box-shadow": [
+                          {
+                              "boxshadowType": {
+                                  "value": "null"
+                              },
+                              "boxshadowHorizontal": {
+                                  "value": "0"
+                              },
+                              "boxshadowVertical": {
+                                  "value": "0"
+                              },
+                              "boxshadowBlur": {
+                                  "value": "15px"
+                              },
+                              "boxshadowSpread": {
+                                  "value": "5px"
+                              },
+                              "boxshadowColor": {
+                                  "value": {
+                                      "link": true,
+                                      "name": "Gray 20",
+                                      "uid": "gray-20",
+                                      "class": ".coh-color-gray-20",
+                                      "variable": "$coh-color-gray-20",
+                                      "value": {
+                                          "hex": "#dbdbdc",
+                                          "rgba": "rgba(219, 219, 220, 1)"
+                                      },
+                                      "inuse": true,
+                                      "wysiwyg": true,
+                                      "tags": [
+                                          "light"
+                                      ]
+                                  }
+                              }
+                          }
+                      ]
+                  }
+              },
+              "settings": {
+                  "pseudo": ":hover"
+              }
+          }
+      },
+      "previewModel": {},
+      "variableFields": []
+  }
+json_mapper: |
+  {
+      "styles": {
+          "title": "Default",
+          "selectorType": "topLevel",
+          "formDefinition": [
+              {
+                  "formKey": "layout",
+                  "children": [
+                      {
+                          "formKey": "margin",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "margin-equal",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-top",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-bottom",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-left",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-right",
+                                  "active": true
+                              },
+                              {
+                                  "name": "margin-block-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-block-end",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-inline-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "margin-inline-end",
+                                  "active": false
+                              }
+                          ]
+                      },
+                      {
+                          "formKey": "padding",
+                          "breakpoints": [
+                              {
+                                  "name": "xl"
+                              }
+                          ],
+                          "activeFields": [
+                              {
+                                  "name": "padding-equal",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-top",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-bottom",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-left",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-right",
+                                  "active": true
+                              },
+                              {
+                                  "name": "padding-block-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-block-end",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-start",
+                                  "active": false
+                              },
+                              {
+                                  "name": "padding-inline-end",
+                                  "active": false
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ],
+          "items": [
+              {
+                  "title": ":hover",
+                  "type": "container",
+                  "items": [],
+                  "selectorType": "pseudo",
+                  "uuid": "90fc3570-2672-4d2f-814e-0f45880a6ad7",
+                  "allowedTypes": [
+                      "child",
+                      "pseudo"
+                  ],
+                  "formDefinition": [
+                      {
+                          "formKey": "layout",
+                          "children": [
+                              {
+                                  "formKey": "box-shadow",
+                                  "activeFields": [
+                                      {
+                                          "name": "boxshadowType",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowHorizontal",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowVertical",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowBlur",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowSpread",
+                                          "active": true
+                                      },
+                                      {
+                                          "name": "boxshadowColor",
+                                          "active": true
+                                      }
+                                  ],
+                                  "breakpoints": [
+                                      {
+                                          "name": "xl"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  }
+last_entity_update: entityupdate_0043
+locked: false
+modified: true
+selectable: true
+class_name: .coh-style-box-shadow-on-container
+custom_style_type: layout
+available_in_wysiwyg: false
+available_in_wysiwyg_inline: false
+parent: null
+weight: 0

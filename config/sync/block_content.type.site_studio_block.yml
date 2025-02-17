@@ -1,0 +1,8 @@
+uuid: a1e0015e-effd-4c28-ba00-135d3e4b64ad
+langcode: en
+status: true
+dependencies: {  }
+id: site_studio_block
+label: 'Site studio block'
+revision: false
+description: null
